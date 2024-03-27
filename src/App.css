@@ -1,0 +1,27 @@
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  color: red;
+
+}
+
+.inactive {
+  color: grey;
+
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+svg {
+  display: flex;
+  max-width: 300px;
+
+}
