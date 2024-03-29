@@ -1,27 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+.home {
+  border-radius: 20%;
+  border-style: hidden;
+  margin-bottom: 1rem;
+}
+.container {
+  padding: none;
+  max-width: max-content;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-.active {
-  color: red;
-
+.nav {
+  height: 5vh;
+  font-family: "Caveat", cursive;
+  font-size: larger;
+  font-style:normal;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(247, 255, 16, 0.576);
 }
 
-.inactive {
-  color: grey;
+.text-center {
+  font-family: "Caveat";
+  font-size: larger;
 
 }
-
 .card-body {
   display: flex;
   flex-direction: column;
-
+  padding-bottom: 0%;
+}
+.card-title {
+color: aliceblue;  
+background-color: black;
+padding-bottom: 0%;
 }
 
-svg {
-  display: flex;
-  max-width: 300px;
+.price {
+  color: black;
+  font-size:medium;
+  background-color: rgba(247, 255, 16, 0.576);
 
+}
+.pizza-choice {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  margin: 2px;
+}
+
+
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
